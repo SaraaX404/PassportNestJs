@@ -5,9 +5,10 @@ import * as passport from 'passport';
 
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
+  //session config
   app.use(
     session({
-      secret: 'saraa X',
+      secret: 'saraa',
       resave: false,
       saveUninitialized: false,
       cookie: { maxAge: 3600000 },

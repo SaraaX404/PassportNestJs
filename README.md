@@ -1,7 +1,7 @@
 # PassportNestJs
 Authentication using nest js and passport js(Using Sessions)
 
-
+`checkout master`
 `npm install`
 `npm run start:dev`
 
